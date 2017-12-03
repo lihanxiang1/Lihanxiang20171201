@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/text_jieguo"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="greenDao lib test" />
+    <EditText
+        android:id="@+id/edit_id"
+        android:layout_width="match_parent"
+        android:hint="id"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/edit_name"
+        android:layout_width="match_parent"
+        android:hint="name"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/button_insert"
+        android:layout_width="match_parent"
+        android:text="新增"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/button_delete"
+        android:layout_width="match_parent"
+        android:text="删除"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/button_select"
+        android:layout_width="match_parent"
+        android:text="查询"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="查询结果"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycleview"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </android.support.v7.widget.RecyclerView>
+</LinearLayout>
